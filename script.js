@@ -11,3 +11,10 @@ document.addEventListener('DOMcontentLoaded', () => {
         botaoInterativo.addEventListener('click', () => {
             exibirMensagemSucesso();
           
+        });
+    }
+});
+
+function exibirMensagemSucesso() {
+    alert('Incrivel! Você esta vendo a lógica separada da estrutura.');
+    console.log('Interação realizada com sucesso no projeto agrinho 2026.');
